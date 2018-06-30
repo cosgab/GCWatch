@@ -1,0 +1,50 @@
+{
+    "author": "cosgab",
+    "dependencies": {
+        "pebble-clay": "^1.0.3"
+    },
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "gc-watch",
+    "pebble": {
+        "capabilities": [
+            "configurable",
+            "health"
+        ],
+        "displayName": "GC Round Watch ",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "backgroundColor",
+            "backgroundBTColor",
+            "textColor",
+            "batteryColor",
+            "hourColor",
+            "quadrantColor",
+            "innerFillColor",
+            "hourhandColor",
+            "minhandColor"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Logo",
+                    "menuIcon": true,
+                    "name": "LOGO_IDENTIFIER",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "c9b0d669-8fa8-4d6d-883f-6ef795fd2b42",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
